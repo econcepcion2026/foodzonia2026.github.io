@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>FZ - FoodZonia</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+
+body {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  margin: 0;
+}
+
+p {
+  font-size:18px;
+  text-indent:50px;
+}
+
+
+
+.header {
+  padding: 80px;
+  text-align: center;
+  color: white;
+  background-image: url(holiday-spread_main.jpg);
+  background-size: cover;
+}
+
+.header > h1 {
+	color: white; 
+	background-color: rgba(39, 29, 29, 0.7); 
+	padding: 2em 2em; 
+	font-family: sans-serif; 
+} 
+
+.header h1 {
+  font-size: 40px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+
+.navbar {
+  overflow: hidden;
+  background-color: #594545;
+  font-size: 15px;
+}
+
+
+.navbar a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+}
+
+
+.navbar a.right {
+  float: right;
+}
+
+
+.navbar a:hover {
+  background-color: #ddd;
+  color: #815B5B;
+}
+
+/* Column container */
+.row {  
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  flex-wrap: wrap;
+}
+
+
+/* Main column */
+.main {   
+  -ms-flex: 70%; /* IE10 */
+  flex: 70%;
+  background-color: #9E7676;
+  color: #FFF8EA;
+  padding: 35px;
+}
+
+.article-right{
+  width: 45%;
+  float: right;
+}
+
+.article-left{
+  width: 45%;
+  float: left;
+}
+
+.img-container {
+  float: left;
+  width: 50%;
+  
+}
+
+.img-container2 {
+  float: right;
+  width: 50%;
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+
+
+
+.footer {
+  position: fixed;
+   bottom: 0;
+   width: 100%;
+   height: 50px;
+   background: rgb(208, 184, 168);
+   text-align: center;
+}
+
+
+@media screen and (max-width: 700px) {
+  .row {   
+    flex-direction: column;
+  }
+}
+
+
+@media screen and (max-width: 400px) {
+  .navbar a {
+    float: none;
+    width: 100%;
+  }
+}
+</style>
+</head>
+<body>
+
+
+<div class="header">
+  <h1>Food Zonia<br><small>- Making Everyone Decide Easier! -</small></h1>
+</div>
+
+<div class="navbar">
+  <a href="index.html">Home</a>
+  <a href="About.html">About</a>
+  <a href="Food.html">Food for Holiday!</a>
+  <a href="FoodGallery.html">Gallery and Appreciation</a>
+  <a href="References.html" class="right">References</a>
+</div>
+
+<div class="row">
+  <div class="main">
+    <h1>It's Almost the Holiday Season!</h1>
+    <p>It's almost the holiday season! During the holidays, families and friends tend to gather in one place,
+       around the dining room table. We talk and celebrate special events, catch up on each other's lives, and lastly, 
+       we eat the delicious food we prepare with our families! With holidays come traditions—dyeing Easter eggs, 
+       exchanging wrapped gifts, carving pumpkins—and many of our holiday traditions center around food. 
+       Think about it. What's Thanksgiving without a turkey?</p>
+    
+    <p>Anyway, if you're looking for something to prepare on the Holidays, this list is for you!</p>
+    
+
+
+    <h2>1.) Pumpkin Pie</h2>
+    <h4>One of the common foods in Halloween!</h4>
+    <div class="clearfix">
+    <div class="img-container">
+      <img src="pumpkin-pie.jpg" alt="pumpkin pie" style="width:100%">
+    </div>
+    <div class="article-right">
+    
+    <br><p>Traditional pumpkin pie is a true classic. 
+      Its rustic orange color and sweet, earthy taste make it a favorite for fall celebrations. 
+      Historians believe the first pumpkin pies—or at least a forerunner to pumpkin pie — were made 
+      by American settlers at Plymouth. </p>
+      
+    <p>The Native Americans showed the Europeans many uses for pumpkin.
+      More like a custard than an actual pie, the Pilgrims filled a hollowed out pumpkin with milk,
+      honey, and spices, then baked it in hot ashes on the fire.
+      In 1796, Amelia Simmons wrote the first cookbook ever created and published in America.
+      </p>
+      <p>This cookbook, "American Cookery," featured probably the first real pumpkin pie recipe
+      -- though she called it "pumpkin pudding." Although you can make a pumpkin pie from scratch, 
+      many people choose to utilize canned pumpkin for the task. 
+      Canned pumpkin appeared on grocery shelves starting in 1929 and remains a pantry staple to this day.</p>
+    </div>
+</div>
+
+
+    <h2>2.) Eggnog</h2>
+    <h4>A tasty Christmas Drink!</h4>
+    <div class="clearfix">
+    <div class="img-container2">
+      <img src= "eggnog.jpg" alt= "eggnog" style="width:100%">
+    
+    
+    
+    
+  </div>
+  <div class="article-left">
+  <br><br><p>Talk about a classic holiday meal. Have you ever had eggnog in September or March? 
+    You can't even find it on the grocery store shelves if it's not the Christmas season.</p>
+
+  <p>The literal meaning of eggnog is "egg inside a small cup." 
+  It's a drink traditionally served at holiday get-togethers and is typically alcoholic 
+  (although you can make or purchase nonalcoholic versions). 
+  The rich beverage contains eggs, sugar, milk, and some sort of alcohol. </p>
+
+  <p>Eggnog evolved from a hot British drink known as "posset," consisting of eggs, milk, and ale or wine.
+  Depending on the locale, the amount of alcohol in the drink varies. 
+  In the South, most people drink their eggnog with bourbon. 
+  In other places, you might find eggnog with rum or brandy. <p>
+    
+    <p>Today it's so ubiquitous, you can find all sorts of eggnog — 
+      dairy-free, soy-based, fat-free, you name it!</p>
+    </div>
+</div>
+
+
+
+<h2> 3.) Christmas Ham</h2>
+<h4>A Filipino Family Favorite!</h4>
+<div class="clearfix">
+<div class="img-container">
+  <img src="christmas-ham.jpg" alt="christmas ham" style="width:100%">
+
+
+</div>
+<div class="article-right">
+<br><br><p>In the Philippines and among diaspora groups such as Filipino-Americans,
+   a ham is prepared for Christmas celebrations. The ham is referred to as a hamón, 
+   from the Spanish word for "ham", jamón. The hamón is sometimes soaked in kumquat and lime juice. </p>
+   <p>It is similar to, but not to be confused for, hamonado, which is another Filipino dish that 
+   can include pork and is also served around the Christmas season.</p>
+  </div>  
+
+  </div>
+
+<h2> 4.) Macaroni Salad</h2>
+<h4> Delicious and Easy to Make!</h4>
+<div class="clearfix">
+<div class="img-container2">
+  <img src="macaroni-salad.jpg" alt="macaroni salad" style="width:100%">
+</div>
+
+<div class="article-left">
+  <br><br><br><p>
+    Macaroni salad is quite easy and very common to make in the Philippines.It is a type of
+    pasta salad, served cold made with cooked elbow macaroni and usually prepared with mayonnaise. </p>
+  <p>
+    It is very common in Filipino households when it is Christmas, and it is often served as a side dish
+    to barbecue, fried chicken, and other picnic style dishes.
+  </p>
+  <p>
+    Like any dish, national and regional variations abound but generally it is prepared with raw
+     diced onions, dill or sweet pickles and celery and seasoned with salt and pepper.
+  </p>
+</div>
+
+</div>
+
+
+<h2> 5.) Spaghetti</h2>
+<h4> Every Kid's Delight!</h4>
+<div class="clearfix">
+<div class="img-container">
+  <img src="spaghetti.jpg" alt="spaghetti" style="width:100%">
+</div>
+
+<div class="article-right">
+<br><br><p>Spaghetti? Every kid loves this food! It's often served on birthday parties and fast food restaurants!
+  Here in the Philippines, Jolibee serves them, Mcdonalds serves them, KFC serves them, Wendys serves them -
+  I mean like, it's pretty much very common here in our country! 
+</p>
+<p>Anyway, for those curious, what exactly is spaghetti? Spaghetti is a long, thin, solid, cylindrical pasta. 
+  It is a staple food of traditional Italian cuisine. Like other pasta, spaghetti is made of milled wheat
+  and water and sometimes enriched with vitamins and minerals. Italian spaghetti is typically made from durum
+   wheat semolina.</p>
+<p>Usually the pasta is white because refined flour is used, but whole wheat flour may be added. 
+  Spaghettoni is a thicker form of spaghetti, while capellini is a very thin spaghetti.</p>
+
+</div>
+
+</div>
+
+
+
+<h2 style="text-align:center"><br><br> - Note that these are just opinions!
+   Thank you for taking the time to read this list! - <br><br><br></h2>
+
+</div>
+</div>
+
+
+
+
+<div class="footer">
+  <h3>Copyright © 2022. FoodZonia Foundation. All Rights Reserved.</h3>
+</div>
+
+</body>
+</html>
